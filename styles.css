@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(101, 198, 255);
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 70px;
+	text-align: center;
+	margin: 50px 0; 
+	font-family: 'Hind', sans-serif;
+}
+
+.title{
+	color: rgb(0, 110, 255);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 450px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.input::placeholder{
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(0, 110, 255);;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.8;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.item{
+	padding: 5px;
+	width: 450px;
+	border-bottom: 1px solid rgb(15, 158, 253);
+	border-top: 1px solid rgb(15, 158, 253);
+	margin-bottom: 20px;
+
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	width: 300px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(0, 110, 255);;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(253, 253, 253);
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
